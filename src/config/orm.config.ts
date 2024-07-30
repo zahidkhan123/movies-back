@@ -1,6 +1,6 @@
 import { TypeOrmModuleOptions } from "@nestjs/typeorm";
-import { Movie } from "src/movie/entities/movie/movie";
-import { UserEntity } from "src/users/entities/users.entity";
+import { Movie } from "src/modules/movie/entities/movie/movie";
+import { UserEntity } from "src/modules/users/entities/users.entity";
 
 const ormConfig = (): TypeOrmModuleOptions => ({
     type: 'mysql',

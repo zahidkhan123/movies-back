@@ -6,8 +6,8 @@ import { loadConfig } from './config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import ormConfig from './config/orm.config';
 import ormConfigProd from './config/orm.config.prod';
-import { UserModule } from './users/users.module';
-import { MovieModule } from './movie/movie.module';
+import { UserModule } from './modules/users/users.module';
+import { MovieModule } from './modules/movie/movie.module';
 
 @Module({
   imports: [
